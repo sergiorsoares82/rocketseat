@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#hero {
+  width: 540px;
+  margin: 0 auto 32px;
+}
+
+#hero img {
+  margin: 0 auto 32px;
+}
+
+#hero h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  color: #3f3d56;
+  margin-bottom: 16px;
+}
+
+#mark-title {
+  color: #ee24ff;
+  font-weight: bold;
+}
+
+.mark-text {
+  color: #3f3d56;
+  font-weight: bold;
+}
+
+#hero p {
+  color: #828282;
+  margin-bottom: 32px;
+}
+
+#hero p + p {
+  margin-bottom: 64px;
+}
+
+#footer {
+  margin-bottom: 32px;
+}
+
+#footer a {
+  color: #3f3d56;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+#wave-img {
+  width: 100%;
+}
