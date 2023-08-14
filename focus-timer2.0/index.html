@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./src/main.js" defer type="module"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Focus Timer 2.0</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favincon.svg"
+      type="image/x-svg"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <button id="toggle-mode">
+        <span class="sr-only">Ativar/Desativar Light Mode</span>
+        <i class="ph-bold ph-sun"></i>
+        <i class="ph-bold ph-moon"></i>
+      </button>
+      <section class="timer">
+        <div class="clock">
+          <span id="minutes">25</span>
+          <span>:</span>
+          <span id="seconds">00</span>
+        </div>
+        <div class="controls">
+          <button
+            data-action="toggleRunning"
+            class="ph ph-play-circle"
+          ></button>
+          <button
+            data-action="toggleRunning"
+            class="ph ph-pause-circle"
+          ></button>
+          <button data-action="stopRunning" class="ph ph-stop-circle"></button>
+          <button data-action="addMinutes" class="ph ph-plus-circle"></button>
+          <button
+            data-action="subtractMinutes"
+            class="ph ph-minus-circle"
+          ></button>
+        </div>
+      </section>
+      <section class="cards-panel">
+        <button
+          id="playForest"
+          data-action="playForest"
+          class="card ph ph-tree"
+        ></button>
+        <button
+          id="playRain"
+          data-action="playRain"
+          class="card ph ph-cloud-snow"
+        ></button>
+        <button
+          id="playCoffeeShop"
+          data-action="playCoffeeShop"
+          class="card ph ph-coffee"
+        ></button>
+        <button
+          id="playFireplace"
+          data-action="playFireplace"
+          class="card ph ph-fire"
+        ></button>
+      </section>
+    </div>
+  </body>
+</html>
