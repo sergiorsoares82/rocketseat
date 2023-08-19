@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body,
+button {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+nav {
+  padding: 4rem 7.2rem 0;
+  display: flex;
+  align-items: center;
+  gap: 5.4rem;
+  z-index: 0;
+}
+
+nav img {
+  height: 4.2rem;
+}
+
+nav a {
+  color: #c4c4cc;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.1rem;
+  text-decoration: none;
+  /* cursor: pointer; */
+}
+
+.active {
+  color: #fff;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+#bg-home {
+  background: url('./assets/images/mountains-universe.png'),
+    lightgray 50% / cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#bg-universe {
+  background: url('./assets/images/mountains-universe-2.png'),
+    lightgray 50% / cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#bg-explore {
+  background: url('./assets/images/mountains-universe-3.png'),
+    lightgray 50% / cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #e1e1e6;
+}
+
+.content-left {
+  width: 64.8rem;
+  padding-left: 10.2rem;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  text-align-last: left;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 125%;
+  margin-bottom: 1.6rem;
+}
+
+.text {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.content {
+  z-index: 0;
+}
+
+.content button {
+  border: 2px solid #fff;
+  padding: 1.2rem 3.2rem;
+  background-color: transparent;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  line-height: 2.4rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
